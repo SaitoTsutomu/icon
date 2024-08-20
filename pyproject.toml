@@ -9,7 +9,7 @@ classifiers = [
 ]
 description = "Random choice from Google Material Icons in Jupyter notebook"
 homepage = "https://github.com/SaitoTsutomu/icon"
-license = "MIT"
+license = "Apache-2.0"
 name = "icon"
 readme = "README.rst"
 version = "0.0.5"
@@ -18,12 +18,8 @@ version = "0.0.5"
 python = "^3.7"
 
 [tool.poetry.dev-dependencies]
-black = "^19.10b0"
-flake8 = "^3.7.9"
-isort = "^4.3.21"
-mypy = "^0.770"
-pytest = "^5.2"
+mypy = "^1.11"
 
 [build-system]
-build-backend = "poetry.masonry.api"
-requires = ["poetry>=0.12"]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
